@@ -1,5 +1,5 @@
 <p align="center">
-  An opinionated template that will allow you to start a new React Native project quickly with TypeScript, Prettier, ESLint, and some custom configurations that will make development process better. 💖
+  Template to quickly start a new React native project with typescript. Comes with most common packages and a default folder structure.
 </p>
 
 <h1 align="center">Expo Bare TypeScript</h1>
@@ -12,12 +12,12 @@ Please read [Starting React Native Project in 2022](https://dev.to/vladimirvovk/
 ## Quick start
 
 1. Install [Expo CLI](https://docs.expo.dev/get-started/installation/) with `npm install --global expo-cli` or `yarn global add expo-cli`.
-2. Create new React Native project with `expo init --template @vladimir-vovk/expo-bare-typescript`.
+2. Create new React Native project with this template.
 3. Change directory to your project's folder with `cd <your-project-name>`.
-4. Run Metro Bundler with `yarn start`.
+4. Run Metro Bundler with `expo start`.
 5. Build and run the project with `yarn ios` or `yarn android`.
 
-Happy hacking! 🤓
+Good Luck!!
 
 ## Features
 
@@ -31,7 +31,7 @@ Happy hacking! 🤓
 
 ## Available commands
 
-- `yarn start` - start Metro Bundler.
+- `expo start` - start Metro Bundler.
 - `yarn ios` - build and run iOS.
 - `yarn android` - build and run Android.
 - `yarn web` - run on web.
